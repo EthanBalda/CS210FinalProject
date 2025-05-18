@@ -14,7 +14,7 @@ public class Expense {
     private static final ConvertCurrency currencyConverter = new ConvertCurrency(); // shared instance
 
 
-    public Expense(double amount, String description, List<User> participants, boolean paid, String currency) {
+    public Expense(String description, double amount, List<User> participants, String currency) {
         this.amount = amount;
         this.description = description;
         this.participants = participants;
