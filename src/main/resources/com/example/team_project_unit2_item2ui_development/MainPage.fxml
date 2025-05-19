@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.team_project_unit2_item2ui_development.HelloController">
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.team_project_unit2_item2ui_development.MainPageController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -14,7 +14,7 @@
       <font>
          <Font name="System Bold" size="14.0" />
       </font></Label>
-    <Button onAction="#onHelloButtonClick" prefHeight="29.0" prefWidth="195.0" text="Add New Expense">
+    <Button onAction="#switchToAddExpenseScene" prefHeight="29.0" prefWidth="195.0" text="Add New Expense">
       <font>
          <Font size="14.0" />
       </font></Button>
