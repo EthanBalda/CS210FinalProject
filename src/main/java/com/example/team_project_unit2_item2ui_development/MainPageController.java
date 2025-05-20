@@ -1,5 +1,6 @@
 package com.example.team_project_unit2_item2ui_development;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -24,5 +25,7 @@ public class MainPageController {
     }
 
 
-
+    public void endApplication(ActionEvent actionEvent) {
+        Platform.exit();
+    }
 }

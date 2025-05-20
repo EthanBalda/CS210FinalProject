@@ -33,5 +33,5 @@
          <Font size="14.0" />
       </font>
    </Button>
-   <Button mnemonicParsing="false" text="Logout" textFill="#a80606" />
+   <Button onAction="#endApplication" text="Logout" textFill="#a80606" />
 </VBox>
