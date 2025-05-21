@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.team_project_unit2_item2ui_development.ExportReportController">
+
+    <Label text="Export Expense Report" style="-fx-font-size: 18px;" />
+    <Button text="Export to CSV" onAction="#handleExport"/>
+    <Label fx:id="statusLabel" />
+    <Button text="Back" onAction="#handleBack"/>
+</VBox>

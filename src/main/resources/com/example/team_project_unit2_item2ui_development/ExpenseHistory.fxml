@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.team_project_unit2_item2ui_development.ExpenseHistoryController">
+
+    <Label text="Expense History" style="-fx-font-size: 18px;" />
+
+    <TableView fx:id="historyTable" prefWidth="400">
+        <columns>
+            <TableColumn fx:id="descColumn" text="Description" prefWidth="150"/>
+            <TableColumn fx:id="amountColumn" text="Amount" prefWidth="100"/>
+            <TableColumn fx:id="dateColumn" text="Date" prefWidth="150"/>
+        </columns>
+    </TableView>
+
+    <Button text="Back" onAction="#handleBack"/>
+</VBox>
