@@ -79,6 +79,7 @@ public class GroupBalanceController {
         stage.show();
     }
 
+
     public void endApplication(ActionEvent actionEvent) {
         Platform.exit();
     }
