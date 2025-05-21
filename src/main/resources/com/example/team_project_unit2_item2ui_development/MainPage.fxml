@@ -18,11 +18,13 @@
       <font>
          <Font size="14.0" />
       </font></Button>
-   <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="195.0" text="Group Balances">
-      <font>
-         <Font size="14.0" />
-      </font>
-   </Button>
+
+    <Button onAction="#switchToGroupBalanceScene" mnemonicParsing="false" prefHeight="29.0" prefWidth="195.0" text="Group Balances">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Button>
+
    <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="195.0" text="Expense History">
       <font>
          <Font size="14.0" />
