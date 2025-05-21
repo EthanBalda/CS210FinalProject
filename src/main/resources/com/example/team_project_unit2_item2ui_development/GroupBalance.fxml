@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="TOP_CENTER" spacing="15.0"
+      xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.team_project_unit2_item2ui_development.GroupBalanceController"
+      style="-fx-font-size: 16px;">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label text="Group Balance" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+
+    <HBox spacing="10">
+        <Label text="Total Amount:" />
+        <TextField fx:id="totalField" promptText="e.g. 100.0" prefWidth="200" />
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Number of People:" />
+        <TextField fx:id="peopleField" promptText="e.g. 4" prefWidth="200" />
+    </HBox>
+
+    <CheckBox fx:id="showSplitCheckBox" text="Calculate how much each person owes" />
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Calculate" onAction="#handleCalculate" prefWidth="100" />
+        <Button text="Back" onAction="#handleBack" prefWidth="100" />
+    </HBox>
+
+    <Label fx:id="resultLabel" wrapText="true" />
+    <Label fx:id="splitLabel" wrapText="true" />
+</VBox>
